@@ -48,6 +48,9 @@ createApp({
         },
         doneNotDone(todoElementindex){
            this.todoList[todoElementindex].done = !this.todoList[todoElementindex].done
-        }
+        },
+        removeItem(index){
+            this.todoList.splice(index, 1)
+        },
     }
 }).mount("#app")

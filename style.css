@@ -29,6 +29,11 @@ ul li{
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+li span {
+    margin-right: 10px;
 }
 
 ul li:hover{
