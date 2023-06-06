@@ -21,7 +21,9 @@
         <div class="todo-list">
 
             <ul>
-                <li v-for="todoThing in todoList">{{todoThing.text}}</li>
+                <li v-for="(todoThing, index) in todoList" @click="doneNotDone(index)" :class="todoThing.done ? 'line-through' : '' "  >
+                    {{todoThing.text}}
+                </li>
             </ul>
 
         </div>

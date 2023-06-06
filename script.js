@@ -45,6 +45,9 @@ createApp({
         addNewToDoElement(todoElement){
             this.todoList.push(todoElement)
             this.newElement = ' '
+        },
+        doneNotDone(todoElementindex){
+           this.todoList[todoElementindex].done = !this.todoList[todoElementindex].done
         }
     }
-}).mount('#app')
+}).mount("#app")
