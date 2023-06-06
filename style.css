@@ -13,7 +13,8 @@ header h1{
 
 div.todo-list{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 div.todo-list ul{
@@ -22,6 +23,7 @@ div.todo-list ul{
     padding: 6px 0px 0px 4px;
     width: 70%;
     background-color: cornflowerblue;
+    margin-bottom: 40px;
 }
 
 ul li{
@@ -49,3 +51,11 @@ ul li:last-child{
     text-decoration: line-through;
 }
 
+div.input-bar{
+    width: 70%;
+}
+
+input{
+    width: 100%;
+    margin-left: 25px;
+}

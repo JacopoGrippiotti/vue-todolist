@@ -22,7 +22,7 @@
         <div class="todo-list">
 
             <ul>
-                <li v-for="(todoThing, index) in todoList" :class="todoThing.done ? 'line-through' : '' "  >
+                <li  v-for="(todoThing, index) in todoList" :class="todoThing.done ? 'line-through' : '' "  >
                     <p @click="doneNotDone(index)">{{todoThing.text}}</p>
                     <span @click=" removeItem(index)">
                         <i class="fa-solid fa-square-xmark"></i>
@@ -30,6 +30,9 @@
                 </li>
             </ul>
 
+            <div class="input-bar" >
+                <input type="text" v-model="newElement.text" @keydown.enter="addNewToDoElement(newElement)" >
+            </div>
         </div>
     </div>
 

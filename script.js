@@ -38,13 +38,14 @@ createApp({
                 done: false
             }
             ],
-            newElement:''
+            newElement: { text:'',
+                          done: false }
         }
     },
     methods: {
         addNewToDoElement(todoElement){
             this.todoList.push(todoElement)
-            this.newElement = ' '
+            this.newElement = { text: ''}
         },
         doneNotDone(todoElementindex){
            this.todoList[todoElementindex].done = !this.todoList[todoElementindex].done
