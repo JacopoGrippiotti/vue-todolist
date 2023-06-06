@@ -6,9 +6,23 @@
 
 header>h1{
     text-align: center;
+    font-size: 3rem;
+    margin-bottom: 80px;
 }
 
 div.todo-list{
     display: flex;
     justify-content: center;
 }
+
+div.todo-list ul{
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 4px;
+}
+
+ul li{
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+
