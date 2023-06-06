@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-header>h1{
+header h1{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 80px;
+    text-transform: uppercase;
 }
 
 div.todo-list{
@@ -28,6 +29,11 @@ ul li{
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
+}
+
+ul li:hover{
+    background-color: rgb(30, 101, 234);
+    cursor: pointer;
 }
 
 ul li:last-child{
