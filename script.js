@@ -17,7 +17,6 @@ createApp({
         }
     },
     methods: {
-
         addNewToDoElement(todoElement){
             this.todoList.push(todoElement)
             this.newElement = ' '
