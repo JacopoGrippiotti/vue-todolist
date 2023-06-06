@@ -10,31 +10,31 @@ createApp({
                 
             }, 
             {
-                text: 'Fare la spesa',
+                text: 'portare a spasso il cane',
                 done: false
             }, 
             {
-                text: 'Fare la spesa',
+                text: 'comprare il regalo per la festa di compleanno',
                 done: false
             },  
             {
-                text: 'Fare la spesa',
+                text: 'fare benzina',
                 done: false
             }, 
             {
-                text: 'Fare la spesa',
+                text: 'dare da mangiare al criceto',
                 done: false
             }, 
             {
-                text: 'Fare la spesa',
+                text: 'comprare le carte per il draft di magic',
                 done: false
             }, 
             {
-                text: 'Fare la spesa',
+                text: 'vedere la parte finale di attack on titans su netflix',
                 done: false
             }, 
             {
-                text: 'Fare la spesa',
+                text: 'andare alla festa di compleanno ',
                 done: false
             }
             ],
