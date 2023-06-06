@@ -32,6 +32,7 @@
 
             <div class="input-bar" >
                 <input type="text" v-model="newElement.text" @keydown.enter="addNewToDoElement(newElement)" >
+                <button @click="addNewToDoElement(newElement)">Enter</button>
             </div>
         </div>
     </div>

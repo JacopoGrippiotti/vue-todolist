@@ -19,11 +19,9 @@ div.todo-list{
 
 div.todo-list ul{
     list-style-type: none;
-    margin-left: 50px;
-    padding: 6px 0px 0px 4px;
     width: 70%;
     background-color: cornflowerblue;
-    margin-bottom: 40px;
+    margin: 0 auto;
 }
 
 ul li{
@@ -53,9 +51,15 @@ ul li:last-child{
 
 div.input-bar{
     width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 9%;
 }
 
 input{
-    width: 100%;
-    margin-left: 25px;
+    width: 90%;
 }
