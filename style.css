@@ -18,11 +18,19 @@ div.todo-list{
 div.todo-list ul{
     list-style-type: none;
     margin-left: 50px;
-    padding: 4px;
+    padding: 6px 0px 0px 4px;
+    width: 70%;
+    background-color: cornflowerblue;
 }
 
 ul li{
-    padding: 8px;
+    padding:8px 0px;
     border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+ul li:last-child{
+    border-bottom: 0px;
 }
 
