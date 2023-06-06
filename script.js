@@ -4,14 +4,39 @@ createApp({
     data(){
         return{
             todoList: [
-            {}, 
-            {}, 
-            {}, 
-            {}, 
-            {}, 
-            {}, 
-            {}, 
-            {}, 
+            {
+                text: 'Fare la spesa',
+                done: false
+                
+            }, 
+            {
+                text: 'Fare la spesa',
+                done: false
+            }, 
+            {
+                text: 'Fare la spesa',
+                done: false
+            },  
+            {
+                text: 'Fare la spesa',
+                done: false
+            }, 
+            {
+                text: 'Fare la spesa',
+                done: false
+            }, 
+            {
+                text: 'Fare la spesa',
+                done: false
+            }, 
+            {
+                text: 'Fare la spesa',
+                done: false
+            }, 
+            {
+                text: 'Fare la spesa',
+                done: false
+            }
             ],
             newElement:''
         }
