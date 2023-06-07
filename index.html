@@ -22,9 +22,9 @@
         <div class="todo-list">
 
             <ul>
-                <li  v-for="(todoThing, index) in todoList" :class="todoThing.done ? 'line-through' : '' "  >
-                    <p @click="doneNotDone(index)">{{todoThing.text}}</p>
-                    <span @click=" removeItem(index)">
+                <li  v-for="(todoThing, index) in todoList" @click="doneNotDone(index)" :class="todoThing.done ? 'line-through' : '' "  >
+                    <p >{{todoThing.text}}</p>
+                    <span @click.stop=" removeItem(index)">
                         <i class="fa-solid fa-square-xmark"></i>
                     </span>
                 </li>
